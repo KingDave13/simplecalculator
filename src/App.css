@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.calculator {
+	padding: 20px;
+	border-radius: 10px;
+	background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form input {
+	border: none;
+	outline: 0;
+	width: 60px;
+	height: 60px;
+	font-size: 16px;
+	background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 200%
+  );
+	margin: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bolder;
+	cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+form input[type='button']:hover {
+	background: linear-gradient(
+    144.39deg,
+    #ffffff -278.90%,
+    #6d6d6d -78.20%,
+    #11101d 91.80%
+  );
 }
 
-.App-link {
-  color: #61dafb;
+form .display {
+	display: flex;
+	justify-content: flex-end;
+	margin: 5px 0px 15px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form .display input {
+	text-align: right;
+	flex: 1;
+	cursor: revert;
+	font-weight: revert;
+	font-size: 40px;
+	padding: 5px 10px;
+	background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 140%
+  );
+}
+
+form input.equal {
+	width: 125px;
 }
