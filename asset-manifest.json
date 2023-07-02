@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/simplecalculator/static/css/main.5c206cda.css",
+    "main.js": "/simplecalculator/static/js/main.9b249f3e.js",
+    "index.html": "/simplecalculator/index.html",
+    "main.5c206cda.css.map": "/simplecalculator/static/css/main.5c206cda.css.map",
+    "main.9b249f3e.js.map": "/simplecalculator/static/js/main.9b249f3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c206cda.css",
+    "static/js/main.9b249f3e.js"
+  ]
+}
